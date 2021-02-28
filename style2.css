@@ -1,0 +1,92 @@
+h1 {
+	color: crimson;
+	font-variant: small-caps;
+}
+
+
+.logo{
+background: black;
+width: 100%;
+float:top
+}
+
+.major{
+    width: 600px;
+    height: 100%;
+    float:left;
+    border: 1px solid black;
+    position:relative;
+    margin: 15px 15px;
+}
+
+.sidebar{
+    width: 13%;
+    height: 100%;
+    border: 1px solid black;
+    float: left; 
+    position:relative;
+    margin: 15px 0px;
+
+}
+
+.menubar {
+    display: inline-block;
+    text-align: center;
+    background: #6E99C9;
+    width: 100%;
+    position: relative;
+    vertical-align: top;
+    margin: 0px;
+    font-family: "Helvetica Neue","helvetica neue","Helvetica","helvetica","Arial","arial",sans-serif;
+    height: 46px;
+}
+
+.menubar li {
+    display: inline-block;
+    float: left;
+    width: 100px;
+    padding: 5px;
+    color: white;
+    font-size: 30px;
+}
+
+.menubar li a {
+color:white;
+text-decoration: none;
+text-align: center;
+padding: 5px;
+}
+
+.menubar .pusher {
+width: 500px;
+}
+
+.menubar .divider{
+        display: inline-block;
+        float: left;
+    max-width: 0.1em;
+    top 25.2;
+    padding: 2px;
+    color: white;
+}
+
+
+.soy {
+	animation: shake 0.4s ease-out;
+	animation-iteration-count: infinite;
+	display: inline-block;
+}
+
+@keyframes shake {
+	0% { transform: translate(1px, 1px) rotate(0deg); }
+	10% { transform: translate(-1px, -2px) rotate(-1deg); }
+	20% { transform: translate(-3px, 0px) rotate(1deg); }
+	30% { transform: translate(3px, 2px) rotate(0deg); }
+	40% { transform: translate(1px, -1px) rotate(1deg); }
+	50% { transform: translate(-1px, 2px) rotate(-1deg); }
+	60% { transform: translate(-3px, 1px) rotate(0deg); }
+	70% { transform: translate(3px, 1px) rotate(-1deg); }
+	80% { transform: translate(-1px, -1px) rotate(1deg); }
+	90% { transform: translate(1px, 2px) rotate(0deg); }
+	100% { transform: translate(1px, -2px) rotate(-1deg); }
+	}
